@@ -133,6 +133,30 @@
           <span class="text-muted">Adrian Ardans &#8482</span>
         </div>
       </footer>
+          <script type="module">
+          // Import the functions you need from the SDKs you need
+          import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+          import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+         // TODO: Add SDKs for Firebase products that you want to use
+          // https://firebase.google.com/docs/web/setup#available-libraries
+      
+          // Your web app's Firebase configuration
+          // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+         const firebaseConfig = {
+            apiKey: "AIzaSyDuA6fF0fuju9gsu1mG_vEJoLtOLaZBkp4",
+            authDomain: "farmacia-testa.firebaseapp.com",
+            databaseURL: "https://farmacia-testa-default-rtdb.firebaseio.com",
+          projectId: "farmacia-testa",
+            storageBucket: "farmacia-testa.appspot.com",
+           messagingSenderId: "946263404952",
+           appId: "1:946263404952:web:f0bcd79439c7e2535b3bed",
+            measurementId: "G-87JYKTRHXM"
+          };
+      
+          // Initialize Firebase
+          const app = initializeApp(firebaseConfig);
+          const analytics = getAnalytics(app);
+          </script>
           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
           <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
           <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
